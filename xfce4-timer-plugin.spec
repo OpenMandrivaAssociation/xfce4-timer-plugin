@@ -7,8 +7,8 @@ Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin
 Source0:	http://goodies.xfce.org/_media/projects/panel-plugins/%{name}-%{version}.tar.bz2
 Patch1:		xfce4-timer-name.patch
-Requires:	xfce-panel >= 4.3.0
-BuildRequires:	xfce-panel-devel >= 4.3.0
+Requires:	xfce4-panel >= 4.4.2
+BuildRequires:	xfce4-panel-devel >= 4.4.2
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-timer-plugin
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
