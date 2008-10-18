@@ -1,7 +1,7 @@
 Summary:	Timer plugin for the Xfce panel
 Name:		xfce4-timer-plugin
 Version:	0.6
-Release:	%mkrel 4
+Release:	%mkrel 5
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin
