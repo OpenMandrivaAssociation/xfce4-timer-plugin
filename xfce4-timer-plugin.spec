@@ -8,6 +8,7 @@ URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin
 Source0:	http://goodies.xfce.org/releases/xfce4-timer-plugin/%{name}-%{version}.tar.bz2
 Requires:	xfce4-panel >= 4.4.2
 BuildRequires:	xfce4-panel-devel >= 4.4.2
+BuildRequires:	libxfcegui4-devel
 BuildRequires:	perl(XML::Parser)
 Obsoletes:	xfce-timer-plugin
 BuildRoot:	%{_tmppath}/%{name}-%{version}-buildroot
