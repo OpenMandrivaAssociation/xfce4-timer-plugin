@@ -35,3 +35,4 @@ rm -rf  %{buildroot}%{_prefix}/doc
 %doc ChangeLog AUTHORS TODO README
 %{_libdir}/xfce4/panel-plugins/*
 %{_datadir}/xfce4/panel-plugins/*.desktop
+%{_datadir}/icons/hicolor/48x48/apps/xfce4-timer.png
