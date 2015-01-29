@@ -20,7 +20,7 @@ Timer panel plugin for the Xfce Desktop Environment.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
