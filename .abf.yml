@@ -1,2 +1,4 @@
-sources:
+removed_sources:
   xfce4-timer-plugin-1.6.0.tar.bz2: aa37ccf7dad36000f413fd7dd29068da4858c8fe
+sources:
+  xfce4-timer-plugin-1.7.0.tar.bz2: f8f502eaee45843652ec869b730a92064d42e483

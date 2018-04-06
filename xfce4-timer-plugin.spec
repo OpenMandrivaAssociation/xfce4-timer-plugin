@@ -1,17 +1,17 @@
-%define url_ver %(echo %{version} | cut -c 1-3)
+%define url_ver %(echo %{version} | cut -d. -f1,2)
+%define _disable_rebuild_configure 1
 
 Summary:	Timer plugin for the Xfce panel
 Name:		xfce4-timer-plugin
-Version:	1.6.0
-Release:	4
+Version:	1.7.0
+Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin
 Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-timer-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
-Patch1:		xfce4-timer-plugin-1.6.0-format-string.patch
-BuildRequires:	pkgconfig(libxfce4panel-1.0)
+BuildRequires:	pkgconfig(libxfce4panel-2.0)
 BuildRequires:	pkgconfig(libxfce4util-1.0)
-BuildRequires:	pkgconfig(libxfce4ui-1)
+BuildRequires:	pkgconfig(libxfce4ui-2)
 BuildRequires:	perl(XML::Parser)
 
 %description
@@ -34,6 +34,6 @@ rm -rf  %{buildroot}%{_prefix}/doc
 
 %files -f %{name}.lang
 %doc ChangeLog AUTHORS TODO README
-%{_libexecdir}/xfce4/panel-plugins/*
-%{_datadir}/xfce4/panel-plugins/*.desktop
-%{_datadir}/icons/hicolor/48x48/apps/xfce4-timer.png
+%{_libdir}/xfce4/panel/plugins/*
+%{_datadir}/xfce4/panel/plugins/*.desktop
+%{_datadir}/icons/hicolor/*/apps/xfce4-timer-plugin.*
