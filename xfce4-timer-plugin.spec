@@ -9,10 +9,14 @@ License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin
 Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-timer-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
+
+BuildRequires:  intltool
 BuildRequires:	pkgconfig(libxfce4panel-2.0)
 BuildRequires:	pkgconfig(libxfce4util-1.0)
 BuildRequires:	pkgconfig(libxfce4ui-2)
 BuildRequires:	perl(XML::Parser)
+BuildRequires:  pkgconfig(gthread-2.0)
+BuildRequires:  pkgconfig(gtk+-3.0)
 
 %description
 Timer panel plugin for the Xfce Desktop Environment.
