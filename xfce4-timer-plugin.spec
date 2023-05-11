@@ -37,7 +37,7 @@ rm -rf  %{buildroot}%{_prefix}/doc
 %find_lang %{name} %{name}.lang
 
 %files -f %{name}.lang
-%doc ChangeLog AUTHORS TODO README
+%doc ChangeLog AUTHORS TODO README*
 %{_libdir}/xfce4/panel/plugins/*
 %{_datadir}/xfce4/panel/plugins/*.desktop
 %{_datadir}/icons/hicolor/*/apps/xfce4-timer-plugin.*
