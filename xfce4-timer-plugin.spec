@@ -7,7 +7,7 @@ Version:	1.7.2
 Release:	1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin
+URL:		https://goodies.xfce.org/projects/panel-plugins/xfce4-timer-plugin
 Source0:	http://archive.xfce.org/src/panel-plugins/xfce4-timer-plugin/%{url_ver}/%{name}-%{version}.tar.bz2
 
 BuildRequires:  intltool
